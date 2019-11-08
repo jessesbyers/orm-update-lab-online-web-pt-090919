@@ -52,7 +52,7 @@ class Student
     new_student
   end
 
-  def student_new_from_db 
+  def self.new_from_db 
   end
 
 
