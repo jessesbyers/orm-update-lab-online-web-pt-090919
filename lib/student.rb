@@ -2,7 +2,6 @@ require_relative "../config/environment.rb"
 
 class Student
   attr_accessor :name, :grade, :id
-  # attr_reader :id
 
   def initialize(id=nil, name, grade)
     @id = id
@@ -18,7 +17,7 @@ class Student
        grade TEXT
        )
        SQL
-       
+
    DB[:conn].execute(sql)
   end
 
