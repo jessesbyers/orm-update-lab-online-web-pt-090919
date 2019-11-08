@@ -52,6 +52,9 @@ class Student
     new_student
   end
 
+  def student_new_from_db 
+  end
+
 
 
 end
